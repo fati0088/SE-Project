@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_employer_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding = "2dp"
+        tools:context="com.example.acer.employersignup.EmployerSignUp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="top"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/FirstNameEmployer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/fname" />
+            <EditText
+                android:id="@+id/LastNameEmployer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Lname" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/CnameEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/cname" />
+        <EditText
+            android:id="@+id/designationEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/designation" />
+
+        <EditText
+            android:id="@+id/PnumberEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/pnumber" />
+
+        <EditText
+            android:id="@+id/emailIDEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/username" />
+        <EditText
+            android:id="@+id/passwordEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/password" />
+
+        <EditText
+            android:id="@+id/rpasswordEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/rPassword" />
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
